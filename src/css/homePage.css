@@ -1,0 +1,52 @@
+.portraitImg {
+    border-radius: 30%;
+    width: 300px;
+}
+
+.list {
+    list-style: none;
+    clear: both;
+    padding-bottom: 2px;
+}
+
+.headerImg {
+    margin-top: 10px;
+}
+
+.homeContainer {
+    background-color: #C0A080;
+}
+
+.welcomeMessage {
+    background-color: white;
+}
+
+.introText {
+    background-color: white;
+}
+
+a img:last-child {
+    display: none;
+  }
+  a:hover img:last-child {
+    display: block;  
+  }
+  a:hover img:first-child {
+    display: none;  
+}
+
+.emailPic, .githubPic, .githubPic2, .instaPic {
+    border-radius: 50%;
+}
+
+.listContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.listContainer * {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: center;
+}

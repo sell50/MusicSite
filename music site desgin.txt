@@ -1,0 +1,24 @@
+music webite design:
+
+Use Cases:
+- user can look at specific albums 
+- user can look at specific artists
+- user can look at specific songs
+- user can look at info about artists:
+	- label
+	- # of albums
+	- awards
+	- life info
+- user can look at info about albums:
+	- label
+	- list of songs / lyrics (with 50% transparent background on top of song page)
+	- length of album
+	- ....
+- user can look at info about songs: (with 50% transparent background on top of album page?)
+	- lyrics (with 50% transparent background on top of song page)
+	- musicians, mixers, etc.
+	- artist (ovbs)
+	- release date
+	- length of song
+	- etc..
+

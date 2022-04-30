@@ -1,0 +1,79 @@
+.reviewSection {
+    border-style: solid;
+    /* border-color:rgb(89, 222, 255); */
+    border-color: black;
+    border-width: 10px;
+  }
+
+.reviewAlbums {
+    border-style: double;   
+    border-color: black;
+    background-color: white;
+    padding-bottom: 5px;
+
+}
+
+.reviewListConst {
+    border-style: double;   
+    border-color: black;
+    border-bottom: 0;
+}
+
+.Albums-Name {
+  background-color: white;
+}
+
+.albumTitle {
+  background-color: black;
+  color: white;
+}
+
+.reviewContainer {
+  background-color: #C0A080;
+  padding: 0px 50px 50px 50px;
+}
+
+.review {
+  background-color: #7882A4;
+  transition: 0.5s;
+}
+
+.reviewArtistName {
+  background-color: white;
+}
+
+.opinion {
+    margin-bottom: 10px;
+}
+
+.opinionButtonLove, .opinionButtonHate, .opinionButtonUnsure {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    font-size: 20px;
+    transition: 0.5s;
+    border: 3px solid black;
+}
+
+.opinionButtonLove:hover {
+    background-color: rgb(21, 255, 0);
+    color: black;
+    transition: 0.5s;
+    border: 3px solid black;
+}
+
+.opinionButtonHate:hover {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  transition: 0.5s;
+  border: 3px solid black;
+}
+
+.opinionButtonUnsure:hover {
+  background-color: yellow;
+  color: black;
+  transition: 0.5s;
+  border: 3px solid black;
+}

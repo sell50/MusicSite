@@ -1,23 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import './css/App.css';
+import Header from './components/Header';
+import Nav from './components/Nav';
+import PageContent from './components/PageContent';
+import Footer from './components/Footer';
+import HomePage from './components/HomePage';
+import { useState } from 'react';
 
 function App() {
+
+  const [tag, setTag] = useState(HomePage);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="appContainer">
+      
+        <div id="header">
+          <Header />
+        </div>
+       
+        <div id="nav">
+          <Nav onButtonClick={(e) => {
+            setTag(e)
+          }
+
+          }/>
+        </div>
+
+        <div id="pageContent">
+            <PageContent tag={tag}/>
+        </div>
+
+        <div id="footer">
+          <Footer onButtonClick={(e) => {
+            setTag(e)
+          }
+
+          }/>
+        </div>
+
     </div>
   );
 }
