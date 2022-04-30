@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/MusicSite/static/css/main.bcd85f10.css",
+    "main.js": "/MusicSite/static/js/main.e9de64c0.js",
+    "static/media/arianeGrande.png": "/MusicSite/static/media/arianeGrande.81d69bbb243d1eb50161.png",
+    "static/media/taylorSwift.png": "/MusicSite/static/media/taylorSwift.dde31f6ed3f11d01fe2e.png",
+    "static/media/me.PNG": "/MusicSite/static/media/me.7a5c1b8739308d3575ef.PNG",
+    "static/media/ladyGaga.png": "/MusicSite/static/media/ladyGaga.d4c4ede4085a6186c1eb.png",
+    "static/media/taylor_swift_evermore.png": "/MusicSite/static/media/taylor_swift_evermore.56e2351bd075174830f0.png",
+    "static/media/insta.jpg": "/MusicSite/static/media/insta.e2f323410a46ac4644aa.jpg",
+    "static/media/email2.jpg": "/MusicSite/static/media/email2.f2e000b80d067eb62dd0.jpg",
+    "static/media/lady_gaga_chromatica.png": "/MusicSite/static/media/lady_gaga_chromatica.6f89812b94b7252b21ef.png",
+    "static/media/insta2.jpg": "/MusicSite/static/media/insta2.75e0546a6b5abe4c0506.jpg",
+    "static/media/github2.png": "/MusicSite/static/media/github2.dbdc458b48d6971c42f5.png",
+    "index.html": "/MusicSite/index.html",
+    "main.bcd85f10.css.map": "/MusicSite/static/css/main.bcd85f10.css.map",
+    "main.e9de64c0.js.map": "/MusicSite/static/js/main.e9de64c0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bcd85f10.css",
+    "static/js/main.e9de64c0.js"
+  ]
+}
