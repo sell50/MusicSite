@@ -35,7 +35,12 @@ a img:last-child {
     display: none;  
 }
 
-.emailPic, .githubPic, .githubPic2, .instaPic {
+img.emailPic, img.emailPic2, img.githubPic, img.githubPic2, img.instaPic, img.instaPic2 {
+    width: 50px;
+    height: 50px;
+}
+
+.emailPic, .emailPic2, .githubPic, .githubPic2, .instaPic, .instaPic2 {
     border-radius: 50%;
 }
 

@@ -19,6 +19,16 @@
     border-bottom: 0;
 }
 
+.artistReviewPic {
+  border-radius: 50%;
+  width: 300px;
+}
+
+.albumReviewPic {
+  border-radius: 20%;
+  width: 150px;
+}
+
 .Albums-Name {
   background-color: white;
 }
