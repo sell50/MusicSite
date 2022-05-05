@@ -1,5 +1,3 @@
-import * as artist from './data/ArtistImages';
-import * as albums from './data/AlbumImages';
 import "../css/Review.css";
 
 export default function Review(props) {
@@ -19,7 +17,7 @@ export default function Review(props) {
                 <p className="reviewName">
                     {" " + element.Album_Name + " "}
                 </p>
-                <img className="artistPic" src={element.Album_Picture} 
+                <img className="albumReviewPic" src={element.Album_Picture} 
                     alt="Ariana Grande Looking to the Left with Her Hands on Her Lip" />
                 <p className="reviewedOn">
                     {"Reviewed On: " + element.ReviewDate + " "}
@@ -42,7 +40,7 @@ export default function Review(props) {
                <h2 className='reviewArtistName'>{props.data.Artist_Name}</h2>
 
                 {/* put in bubble next to name*/}
-               <img className="artistPic" src={props.data.Artist_Picture} 
+               <img className="artistReviewPic" src={props.data.Artist_Picture} 
                     alt="Ariana Grande Looking to the Left with Her Hands on Her Lip" />
                
                <p className="albumList">

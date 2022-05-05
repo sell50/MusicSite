@@ -7,7 +7,7 @@ export default function Album(props) {
                 <p className="albumSongs">
                     {element.Album_Name}
                 </p>
-                <img class="ArtistsAlbum-image" src={element.Album_Picture} alt="Ariana Grande"/>
+                <img class="ArtistsAlbum-image" src={element.Album_Picture} alt={element.Picture_Alt}/>
                 <p className="albumSongs">
                     {element.Songs.map(song =>{
                         return(
@@ -29,7 +29,7 @@ export default function Album(props) {
                <h2 class="Albums-Name">{props.data.Artist_Name}</h2>
 
                <img class="Albums-Image" src={props.data.Artist_Picture} 
-                    alt="Ariana Grande Looking to the Left with Her Hands on Her Lip" />
+                    alt={props.data.Picture_Alt} />
 
                <p className="albumTitle">Albums</p>
 

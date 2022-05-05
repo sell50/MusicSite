@@ -6,7 +6,7 @@ export default function Artist(props) {
            <section class="artistSection">
 
                 <img className="artistPic" src={props.data.Artist_Picture} 
-                    alt="Ariana Grande Looking to the Left with Her Hands on Her Lip" />
+                    alt={props.data.Picture_Alt} />
 
                 <h2>
                     {props.data.Artist_Name}
