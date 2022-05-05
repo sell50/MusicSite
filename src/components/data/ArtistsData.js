@@ -5,6 +5,7 @@ export const Artists = {
     AG: {
         Artist_Name: "Ariana Grande",
         Artist_Picture: artists.arianaGrande,
+        Picture_Alt: "Alt Info Here",
         Age: "29",
         Label: "Republic",
         Albums:
@@ -38,6 +39,7 @@ export const Artists = {
     },
     LG: {
         Artist_Picture: artists.ladyGaga,
+        Picture_Alt: "Alt Info Here",
         Artist_Name: "Lady Gaga",
         Age: "34",
         Label: "Universal",
@@ -58,6 +60,7 @@ export const Artists = {
     },
     TS: {
         Artist_Picture: artists.taylorSwift,
+        Picture_Alt: "Alt Info Here",
         Artist_Name: "Taylor Swift",
         Age: "30",
         Label: "Universal",
