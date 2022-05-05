@@ -25,6 +25,7 @@ export default function Footer(props) {
                     <div className="row-1 list">
                         <div className="col-1">
                             
+                            {/* Change with component??? */}
                             <a className="" href="mailto:kat.pace.8@gmail.com">  
                                 <img className="emailPic" src={socials.emailstart} width="100px" height="100px" alt="black envelope picture"/> 
                                 <img className="emailPic2" src={socials.emailend} width="100px" height="100px" alt="blue envelope"/> 

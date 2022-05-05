@@ -8,16 +8,19 @@ import { useState } from 'react';
 
 function App() {
 
+  //Main page content useState
   const [tag, setTag] = useState(HomePage);
 
   return (
     <div className="appContainer">
       
+        {/* Header Component */}
         <div id="header">
           <Header />
         </div>
        
         <div id="nav">
+          {/* Nav State -> Set with button click */}
           <Nav onButtonClick={(e) => {
             setTag(e)
           }
@@ -25,16 +28,14 @@ function App() {
           }/>
         </div>
 
+          {/* Show Page Content - Default -> HomePage */}
         <div id="pageContent">
             <PageContent tag={tag}/>
         </div>
 
+          {/* Footer Component */}
         <div id="footer">
-          <Footer onButtonClick={(e) => {
-            setTag(e)
-          }
-
-          }/>
+          <Footer />
         </div>
 
     </div>
