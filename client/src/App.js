@@ -10,8 +10,11 @@ function App() {
 
   //Main page content useState
   const [tag, setTag] = useState(HomePage);
+
+  //Server Fetch state
   const [data, setData] = useState(null);
 
+  
   useEffect(() => {
     fetch("/api")
       .then((res) => res.json())
