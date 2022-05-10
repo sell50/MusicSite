@@ -6,22 +6,28 @@ export default function ContactPage(props) {
     //////////////////////////////////////////////////////////////////
 
     const [status, setStatus] = useState("Submit");
+    
     const handleSubmit = async (e) => {
+
         e.preventDefault();
         setStatus("Sending...");
+
         const { name, email, message } = e.target.elements;
+
         let details = {
-        name: name.value,
-        email: email.value,
-        message: message.value,
+            name: name.value,
+            email: email.value,
+            message: message.value,
         };
+
         let response = await fetch("http://localhost:5000/contact", {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json;charset=utf-8",
-        },
-        body: JSON.stringify(details),
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json;charset=utf-8",
+            },
+            body: JSON.stringify(details),
         });
+
         setStatus("Submit");
         let result = await response.json();
         alert(result.status);
@@ -32,17 +38,6 @@ export default function ContactPage(props) {
     const contactTemplate = (
         <div className="contactContainer">
             <form className="contactForm" onSubmit={handleSubmit}>
-                {/* <label className="fnameLabel">
-                    First Name:
-                    <input type="text" name="fname" />
-                </label>
-                 */}
-
-                {/* <label className="lnameLabel">
-                    Last Name:
-                    <input type="text" name="lname" />
-                </label>
-                 */}
 
                 <label className="nameLabel" htmlFor="name">
                     Name:
@@ -59,7 +54,6 @@ export default function ContactPage(props) {
                     <textarea name="Text1" cols="40" rows="5" id="message" required />
                 </label>
 
-                {/* <input className="submitInput" type="submit" value="Submit" /> */}
                 <button className="submitInput"  type="submit">{status}</button>
             </form>
         </div>

@@ -18,7 +18,7 @@ export default function Review(props) {
                     {" " + element.Album_Name + " "}
                 </p>
                 <img className="albumReviewPic" src={element.Album_Picture} 
-                    alt="Ariana Grande Looking to the Left with Her Hands on Her Lip" />
+                    alt={element.Album_Picture_Alt} />
                 <p className="reviewedOn">
                     {"Reviewed On: " + element.ReviewDate + " "}
                 </p>

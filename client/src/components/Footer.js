@@ -1,24 +1,10 @@
 import React from "react";
-import AlbumPage from "./AlbumPage";
-import ArtistPage from "./ArtistPage";
-import ContactPage from "./ContactPage";
-import HomePage from "./HomePage";
-import ReviewPage from "./ReviewPage";
-
 
 import * as socials from "../components/data/SocialPics.js";
 
 import "../css/homePage.css"; 
 
 export default function Footer(props) {
-
-    const footerNames = {
-        page0: 'Home',
-        page1: 'Artists',
-        page2: 'Albums',
-        page3: 'Reviews',
-        page4: 'Contact'
-    }
 
     return (
         <div className="listContainer">
@@ -27,7 +13,7 @@ export default function Footer(props) {
                             
                             {/* Change with component??? */}
                             <a className="" href="mailto:kat.pace.8@gmail.com">  
-                                <img className="emailPic" src={socials.emailstart} width="100px" height="100px" alt="black envelope picture"/> 
+                                <img className="emailPic" src={socials.emailstart} width="100px" height="100px" alt="black envelope"/> 
                                 <img className="emailPic2" src={socials.emailend} width="100px" height="100px" alt="blue envelope"/> 
                             </a>
                             <a className="" href="https://github.com/sell50">  

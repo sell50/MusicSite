@@ -5,13 +5,14 @@ export const Artists = {
     AG: {
         Artist_Name: "Ariana Grande",
         Artist_Picture: artists.arianaGrande,
-        Picture_Alt: "Alt Info Here",
+        Artist_Picture_Alt: "Alt Info Here",
         Age: "29",
         Label: "Republic",
         Albums:
         [
             {   
                 Album_Picture: albums.ArianaGrande_Positions,
+                Album_Picture_Alt: "Alt Info Here",
                 Album_Name: "Positions",
                 Songs: 
                 [
@@ -24,6 +25,7 @@ export const Artists = {
             },
             {
                 Album_Picture: albums.ArianaGrande_Positions,
+                Album_Picture_Alt: "Alt Info Here",
                 Album_Name: "HI",
                 Songs: 
                 [
@@ -39,7 +41,7 @@ export const Artists = {
     },
     LG: {
         Artist_Picture: artists.ladyGaga,
-        Picture_Alt: "Alt Info Here",
+        Artist_Picture_Alt: "Alt Info Here",
         Artist_Name: "Lady Gaga",
         Age: "34",
         Label: "Universal",
@@ -47,6 +49,7 @@ export const Artists = {
         [
             {
                 Album_Picture: albums.LadyGaga_Chromatica,
+                Album_Picture_Alt: "Alt Info Here",
                 Album_Name: "Chromatica",
                 Songs:
                 [
@@ -60,7 +63,7 @@ export const Artists = {
     },
     TS: {
         Artist_Picture: artists.taylorSwift,
-        Picture_Alt: "Alt Info Here",
+        Artist_Picture_Alt: "Alt Info Here",
         Artist_Name: "Taylor Swift",
         Age: "30",
         Label: "Universal",
@@ -68,6 +71,7 @@ export const Artists = {
         [
             {
                 Album_Picture: albums.TaylorSwift_Evermore,
+                Album_Picture_Alt: "Alt Info Here",
                 Album_Name: "evermore",
                 Songs:
                 [
