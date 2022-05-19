@@ -1,3 +1,5 @@
+/* Pages that use this: ALL  */
+
 body {
   background-color: black;
   margin: 0;
@@ -9,48 +11,42 @@ body {
 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 /* HEADER HERE */
 .header {
   background-color: #C0A080;
 }
 
+/*Page: Header*/
 .headerImg {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  margin-top: 10px;
 }
 
 /* NAV HERE */
-.nav {
-  background-color: aqua;
-}
 
+/*Page: Nav*/
 .navUL {
-  display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
   padding-inline-start: 0;
   text-align: center;
 }
 
+/*Page: Nav*/
 .navLinks {
   padding: 9px 10px 10px 10px;
   font-size: 30px;
   margin: 10px 10px 10px 10px;
   background-color: black;
-  /* border-color:white; */
   border-style: none;
   color: white;
   transition: 0.5s;
 }
 
+/*Page: Nav*/
 .navLinks:hover {
   border-bottom-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -67,36 +63,36 @@ code {
   margin: 20px;
 }
 
-/* FOOTER HERE */
-.footer {
-  background-color: brown;
+/* FOOTER CONTENT HERE */
+
+/* Page: Footer */
+.listContainer {
+  display: flex;
+  flex-direction: column;
 }
 
-.footerUL {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  padding-inline-start: 0;
-  text-align: center;
+.listContainer * {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  justify-content: center;
 }
 
-.footerLinks {
-
-  padding: 9px 10px 10px 10px;
-  font-size: 20px;
-  margin: 10px 10px 10px 10px;
-  background-color: black;
-  /* border-color:white; */
-  border-style: none;
-  color: white;
-  transition: 0.5s;
+a img:last-child {
+  display: none;
+}
+a:hover img:last-child {
+  display: block;  
+}
+a:hover img:first-child {
+  display: none;  
 }
 
-.footerLinks:hover {
-  border-bottom-left-radius: 10px;
-  border-top-right-radius: 10px;
-  transition: 0.5s;
-  background-color: white;
-  color: black;
+img.emailPic, img.emailPic2, img.githubPic, img.githubPic2, img.instaPic, img.instaPic2 {
+  width: 50px;
+  height: 50px;
+}
+
+.emailPic, .emailPic2, .githubPic, .githubPic2, .instaPic, .instaPic2 {
+  border-radius: 50%;
 }

@@ -1,4 +1,3 @@
-
 export default function Album(props) {
 
     const albumList = props.data.Albums?.map(element => {

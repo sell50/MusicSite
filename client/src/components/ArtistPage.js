@@ -10,12 +10,12 @@ export default function ArtistPage() {
     })
 
     return (
-        <div className="">
+        <div>
               
             <main className="artistContainer">
             
                 <h1>Artists</h1>
-                <article className="artist colour">
+                <article className="artist">
                     {artistList}
                 </article>
 
