@@ -1,6 +1,18 @@
-/* Pages that use this: Footer, HomePage */
+.portraitImg {
+    border-radius: 30%;
+    width: 300px;
+}
 
-/*Page: HomePage*/
+.list {
+    list-style: none;
+    clear: both;
+    padding-bottom: 2px;
+}
+
+.headerImg {
+    margin-top: 10px;
+}
+
 .homeContainer {
     background-color: #C0A080;
 }
@@ -9,11 +21,37 @@
     background-color: white;
 }
 
-.portraitImg {
-    border-radius: 30%;
-    width: 300px;
-}
-
 .introText {
     background-color: white;
+}
+
+a img:last-child {
+    display: none;
+  }
+  a:hover img:last-child {
+    display: block;  
+  }
+  a:hover img:first-child {
+    display: none;  
+}
+
+img.emailPic, img.emailPic2, img.githubPic, img.githubPic2, img.instaPic, img.instaPic2 {
+    width: 50px;
+    height: 50px;
+}
+
+.emailPic, .emailPic2, .githubPic, .githubPic2, .instaPic, .instaPic2 {
+    border-radius: 50%;
+}
+
+.listContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.listContainer * {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: center;
 }

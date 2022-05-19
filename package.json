@@ -8,7 +8,6 @@
     "build": "cd client && npm install && npm run build",
     "server": "node server/index.js",
     "client": "npm start --prefix client",
-    "start": "react-scripts start",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
@@ -30,7 +29,6 @@
     "sass": "^1.51.0"
   },
   "devDependencies": {
-    "concurrently": "^7.1.0",
-    "typescript": "^4.6.4"
+    "concurrently": "^7.1.0"
   }
 }

@@ -14,7 +14,7 @@ export default function AlbumPage(props) {
           <main className="albumContainer">
 
             <h1>Albums</h1>
-            <article className="album">
+            <article className="album colour">
                 {albumList}
             </article>
 

@@ -1,6 +1,37 @@
-/* Pages that use this:  Album, AlbumPage*/
+.albumsSection {
+    border-style: solid;
+    /* border-color:rgb(89, 222, 255); */
+    border-color: black;
+    border-width: 10px;
+  }
 
-/*Page: AlbumPage*/
+.ArtistAlbums {
+    border-style: double;   
+    border-color: black;
+    background-color: white;
+    margin-top: -25px;
+    padding-bottom: 5px;
+}
+
+.ArtistsAlbum-image {
+  border-radius: 20%;
+  width: 150px;
+}
+
+.Albums-Image {
+  width: 300px;
+  border-radius: 50%;
+}
+
+.Albums-Name {
+  background-color: white;
+}
+
+.albumTitle {
+  background-color: black;
+  color: white;
+}
+
 .albumContainer {
   background-color: #C0A080;
   padding: 0px 50px 50px 50px;
@@ -9,39 +40,4 @@
 .album {
   background-color: #7882A4;
   transition: 0.5s;
-}
-
-/*Page: Album*/
-.albumsSection {
-  border-style: solid;
-  /* border-color:rgb(89, 222, 255); */
-  border-color: black;
-  border-width: 10px;
-}
-
-.Albums-Name {
-  background-color: white;
-}
-
-.Albums-Image {
-  width: 300px;
-  border-radius: 50%;
-}
-
-.albumTitle {
-  background-color: black;
-  color: white;
-}
-
-.ArtistAlbums {
-  border-style: double;   
-  border-color: black;
-  background-color: white;
-  margin-top: -25px;
-  padding-bottom: 5px;
-}
-
-.ArtistsAlbum-image {
-  border-radius: 20%;
-  width: 150px;
 }
